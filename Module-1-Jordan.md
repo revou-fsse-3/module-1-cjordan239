@@ -8,7 +8,7 @@
 - **Birth Date**: 28/03/2002
 - **Hobbies**   : Swimming, Gaming
 - **Adress** : Padang, West Sumatera
-- **Merital** Status : Single
+- **Merital Status** : Single
 
 #### Social Media 
 You can find me through this social media channel as well as my picture :D!
