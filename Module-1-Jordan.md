@@ -11,7 +11,12 @@
 - **Merital Status** : Single
 
 #### Social Media 
-You can find me through this social media channel as well as my picture :D!
+Get to know me better through my social media. you can DM me anything. You can find me through this social media channel :D!
+
+<pre>
+                            <img src = 'https://i.imgur.com/hY9izS8.jpg' width = 300>
+</pre>
+
 
 | Instagram                                        | Discord    | Steam                                               |
 | ------------------------------------------------ | ---------- | --------------------------------------------------- |
