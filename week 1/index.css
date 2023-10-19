@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+} 
+
+
+.nav-bar {
+    background-color: rgb(0, 0, 0);
+    height: 10px 10px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    align-content:;
+
+
+}
+
+label.logo {
+    display: flex;
+    font-size: 50px;
+    font-family: monospace;
+    color: gold;
+    font-weight: bolder;
+    line-height: 2;
+    margin-left: 1px;
+
+}
+
+.nav-bar li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.nav-bar li a {
+    color: gold;
+    id
+}
+
+.imgBod {
+    float: right;
+    width: 50mm;
+}
+
+.gpuProd {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.gpuProd a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.gpuProd button {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: monospace;
+
+}
+
+.loginpage {
+    font-weight: bold;
+}
