@@ -3,13 +3,12 @@
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     list-style-type: none
-
 }
 
 body {
     margin: 0;
     padding: 0;
-} 
+}
 
 
 .nav-bar {
@@ -22,7 +21,7 @@ body {
     align-items: center;
 }
 
-.nav-bar .nav-bar1{
+.nav-bar .nav-bar1 {
     margin-;
 }
 
@@ -33,7 +32,7 @@ label.logo {
     color: gold;
     font-weight: bolder;
     line-height: 2;
-    margin-right:250px ;
+    margin-right: 250px;
 
 }
 
@@ -73,6 +72,6 @@ label.logo {
 
 }
 
-.loginpage {
-    font-weight: bold;
+.loginButt{
+    
 }
