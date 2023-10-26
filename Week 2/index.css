@@ -142,7 +142,11 @@ fieldset {
     right: 35%;
     top: 15%;
     left: 2%;
+}
 
+.color1 img {
+    margin: -10px 0px 0px 440px;
+    height: 440px;
 }
 
 
