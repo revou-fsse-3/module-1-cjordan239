@@ -1,0 +1,162 @@
+* {
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-logo {
+    font-size: 3em;
+    color: orange
+}
+
+.nav-menu {
+    font-family: monospace;
+    font-size: 1.2em;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+.linkbut {
+    transition: 0.7s ease;
+}
+
+.nav-menu li a {
+    color: rgb(22, 21, 21);
+
+}
+
+.nav-menu li a:hover {
+    color: rgb(255, 183, 49);
+}
+
+/* diatas adalah navigasi bar */
+
+/* dibawah adalah Toogle Menu */
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger span {
+    display: block;
+    width: 22px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+.snack-bar {
+    display: flex;
+    justify-content: center;
+    background-color: indigo;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+body {
+    background-color: rgba(177, 176, 172, 0.873);
+    height: 1000vh;
+}
+
+.top-page {
+    display: grid;
+    grid-row: 1/5;
+
+}
+
+/*  */
+@media screen and (max-width: 768px) {
+    .nav-menu li {
+        width: 100%;
+    }
+}
+
+/* diatas adalah ukuran tablet */
+
+@media screen and (max-width: 568px) {
+    .nav-menu li {
+        display: none;
+    }
+
+}
+
+/* diatas adalah ukuran Hp */
+
+fieldset {
+    position: absolute;
+    bottom: 0;
+;
+}
+
+.form-daftar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+
+}
+
+input {
+    width: 500px;
+}
+
+.input-email {
+    bor;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 500px;
+    left: 625px;
+}
+
+.form-daftar button {
+    margin-top: 10px;
+    width: 300px;
+}
+
+.color1 {
+    position: absolute;
+    right: 35%;
+    top: 15%;
+    left: 2%;
+
+}
+
+
+.top-page {
+    display: block;
+    align-content: center;
+}
+
+.news-trending {
+    float: right;
+    background-color:bisque;
+    width: 600px;
+    height: 450px;
+    margin: 20px 200px 0px 0px;
+}
+
+.
