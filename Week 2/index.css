@@ -94,11 +94,14 @@
     border-radius: 5px;
 }
 
-.container-top1 {
+.container-top .news-trending {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+}
+
+.container-upper1 {
+    width: 80;
+    margin: 0px 40px 0px 40px;
 }
 
 .original-recipe {
@@ -107,15 +110,39 @@
     margin: 0px 0px 36px;
 }
 
+.original-recipe img {
+    width: 100%;
+    height: auto;
+}
+
+.container-top1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 40px 0px 40px;
+    gap: 30px;
+}
+
+.container-top1 
+
+
 
 
 body {
-    background-color: rgba(177, 176, 172, 0.873);
+    background-color: rgba(73, 72, 69, 0.873);
     height: 1000vh;
 }
 
-/*  */
-@media screen and (min-width: 68px) {
+/* responsive display */
+@media screen and (max-width: 568px) {
+    .nav-menu {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 568px) {
     .nav-menu li {
         width: 100%;
         display: ;
@@ -125,17 +152,7 @@ body {
         display: none;
     }
 }
-
-/* diatas adalah ukuran tablet */
-
-@media screen and (max-width: 568px) {
-    .nav-menu {
-        display: none;
-    }
-
-}
-
-/* diatas adalah ukuran Hp */
+/* -- */
 
 fieldset {
     position: absolute;
