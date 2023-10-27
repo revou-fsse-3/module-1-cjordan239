@@ -8,7 +8,7 @@
 .container-nav {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(116, 113, 113);
     align-items: center;
     position: sticky;
     top: 0;
@@ -135,14 +135,14 @@ body {
 }
 
 /* responsive display */
-@media screen and (max-width: 568px) {
+@media (max-width: 568px) {
     .nav-menu {
         display: none;
     }
 
 }
 
-@media screen and (min-width: 568px) {
+@media (min-width: 568px) {
     .nav-menu li {
         width: 100%;
         display: ;
@@ -154,39 +154,33 @@ body {
 }
 /* -- */
 
-fieldset {
-    position: absolute;
-    bottom: 0;
-    ;
-}
-
-.form-daftar {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+/* .form-daftar {
+    display: block;
     align-items: center;
-    position: sticky;
-    bottom: 0;
+    margin:40px 40px 0px 40px;
+    width: 50%;
+    height: auto;
+    background-color: bisque;
 
-}
+} */
 
-input {
-    width: 500px;
-}
-
-.input-email {
-    bor;
-}
-
-fieldset {
+.register-container {
     display: flex;
     justify-content: center;
-    border-radius: 20px;
-    margin-top: 500px;
-    left: 625px;
+    margin: 36px 0px 36px 0px;
+    width: 100%;
+    height: auto;
+    background-color: darkkhaki;
 }
 
-.form-daftar button {
-    margin-top: 10px;
-    width: 300px;
+.register-container fieldset {
+    padding: 10px;
 }
+
+/* @media (max-width: 786px){
+    .form-daftar {
+    ;
+    }
+}
+     */
+
