@@ -69,6 +69,44 @@
     color: rgb(255, 255, 255);
 }
 
+.container-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(255, 255, 255); */
+    margin: 24px 0px 0px 36px;
+    padding: 10%;
+}
+
+.container-top .top1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.container-top .top2 {
+    width: 50%;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+.container-top1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.original-recipe {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 36px;
+}
+
 
 
 body {
@@ -76,23 +114,22 @@ body {
     height: 1000vh;
 }
 
-.top-page {
-    display: grid;
-    grid-row: 1/5;
-
-}
-
 /*  */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 68px) {
     .nav-menu li {
         width: 100%;
+        display: ;
+    }
+
+    .hamburger {
+        display: none;
     }
 }
 
 /* diatas adalah ukuran tablet */
 
 @media screen and (max-width: 568px) {
-    .nav-menu li {
+    .nav-menu {
         display: none;
     }
 
@@ -103,7 +140,7 @@ body {
 fieldset {
     position: absolute;
     bottom: 0;
-;
+    ;
 }
 
 .form-daftar {
@@ -136,31 +173,3 @@ fieldset {
     margin-top: 10px;
     width: 300px;
 }
-
-.color1 {
-    position: absolute;
-    right: 35%;
-    top: 15%;
-    left: 2%;
-}
-
-.color1 img {
-    margin: -10px 0px 0px 440px;
-    height: 440px;
-}
-
-
-.top-page {
-    display: block;
-    align-content: center;
-}
-
-.news-trending {
-    float: right;
-    background-color:bisque;
-    width: 600px;
-    height: 450px;
-    margin: 20px 200px 0px 0px;
-}
-
-.
