@@ -1,0 +1,189 @@
+* {
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(116, 113, 113);
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-logo {
+    font-size: 3em;
+    color: orange
+}
+
+.nav-menu {
+    font-family: monospace;
+    font-size: 1.2em;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+.linkbut {
+    transition: 0.7s ease;
+}
+
+.nav-menu li a {
+    color: rgb(22, 21, 21);
+
+}
+
+.nav-menu li a:hover {
+    color: rgb(255, 183, 49);
+}
+
+/* diatas adalah navigasi bar */
+
+/* dibawah adalah Toogle Menu */
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger span {
+    display: block;
+    width: 22px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+.snack-bar {
+    display: flex;
+    justify-content: center;
+    background-color: indigo;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.container-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px 0px 36px;
+    padding: 10%;
+}
+
+.container-top .top1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.container-top .top2 {
+    width: 50%;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: bisque;
+    border-radius: 5px;
+    margin-right: 20%;
+}
+
+.container-top .news-trending {
+    display: flex;
+    justify-content: center;
+}
+
+.container-upper1 {
+    width: 80%;
+    margin: 0px 40px 0px 40px;
+}
+
+.original-recipe {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 36px;
+}
+
+.original-recipe img {
+    width: 100%;
+    height: auto;
+}
+
+.container-top1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 40px 0px 40px;
+    gap: 30%;
+    max-width:max-content;
+}
+
+.container-top1 
+
+
+
+
+body {
+    background-color: rgba(73, 72, 69, 0.873);
+    height: 1000vh;
+}
+
+/* responsive display */
+@media (max-width: 568px) {
+    .nav-menu {
+        display: none;
+    }
+
+}
+
+@media (min-width: 568px) {
+    .nav-menu li {
+        width: 100%;
+        display: ;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+/* -- */
+
+/* .form-daftar {
+    display: block;
+    align-items: center;
+    margin:40px 40px 0px 40px;
+    width: 50%;
+    height: auto;
+    background-color: bisque;
+
+} */
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    margin: 36px 0px 36px 0px;
+    background-color: rgb(27, 27, 24);
+}
+
+.register-container fieldset {
+    
+}
+
+form {
+    color: white;
+}
+
+
+/* @media (max-width: 786px){
+    .form-daftar {
+    ;
+    }
+}
+     */
+

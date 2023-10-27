@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jrecipe</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="container-nav">
+        <div class="nav-logo">
+            Jrecipe
+        </div>
+
+        <ul class="nav-menu">
+            <li><a class="linkbut" href="#">Home</a></li>
+            <li><a class="linkbut" href="#">Recipe</a></li>
+            <li><a class="linkbut" href="#">About us</a></li>
+        </ul>
+
+        <div class="hamburger" id="toogleHam">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="snack-bar">
+        <span>most wanted #1 trusted recipe resource since 1997</span>
+    </div>
+
+    <main>
+        <section class="container-upper">
+            <div class="container-top">
+                <div class="top1">
+                    <img src="https://i.pinimg.com/originals/7a/6d/47/7a6d47e822f43986ce92a8573e08b2d1.gif"
+                        alt="Foto makanan" width="90%" />
+                </div>
+                <div class="top2">
+                    <div class="news-trending">
+                        <h2>News-Trending</h2>
+                    </div>
+                    <div class="news1">
+                        <img src="https://i.pinimg.com/originals/7a/6d/47/7a6d47e822f43986ce92a8573e08b2d1.gif"
+                            alt="Foto makanan" width="20%"><a href="#">Turnout burito is sweet.</a>
+                    </div>
+                    <div class="news1">
+                        <img src="https://i.pinimg.com/originals/7a/6d/47/7a6d47e822f43986ce92a8573e08b2d1.gif"
+                            alt="Foto makanan" width="20%"><a href="#">Turnout burito is sweet.</a>
+                    </div>
+                    <div class="news1">
+                        <img src="https://i.pinimg.com/originals/7a/6d/47/7a6d47e822f43986ce92a8573e08b2d1.gif"
+                            alt="Foto makanan" width="20%"><a href="#">Turnout burito is sweet.</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="container-upper1">
+            <div class="original-recipe">
+                <h2>Original Recipe</h2>
+            </div>
+            <div class="container-top1">
+                <div class="original-recipe1">
+                    <img
+                        src="https://th.bing.com/th/id/OIP.p0ICcVVkGPVM4r3yE9ACVwHaHW?w=191&h=190&c=7&r=0&o=5&pid=1.7" /><a
+                        href="#"></a>
+                    <div class="desc-oc1">Ayam Jepang</div>
+                </div>
+                <div class="original-recipe2">
+                    <img
+                        src="https://th.bing.com/th/id/OIP.rm_CozUo18YQLSOsE5GDrgHaE-?w=252&h=180&c=7&r=0&o=5&pid=1.7" /><a
+                        href="#"></a>
+                    <div class="desc-oc1">Ayam Penyet</div>
+                </div>
+                <div class="original-recipe3">
+                    <img
+                        src="https://th.bing.com/th/id/OIP.QdxDgY55oV8B0pYj5mPJqAHaEK?w=301&h=180&c=7&r=0&o=5&pid=1.7" /><a
+                        href="#"></a>
+                    <div class="desc-oc1">Udang Bawang</div>
+                </div>
+                <div class="original-recipe4">
+                    <img
+                        src="https://th.bing.com/th/id/OIP.Xii_WwWw95ZjhuLexueWXQHaEK?w=326&h=183&c=7&r=0&o=5&pid=1.7" /><a
+                        href="#"></a>
+                    <div class="desc-oc1">Soto Betawi</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+    <div class="register-container">
+        <form action="#">
+            <fieldset>
+                <legend>Register Form</legend>
+                <div class="form-daftar">
+                    <div>
+                        <label for="Name">Email</label>
+                        <input class="input-email" type="text" placeholder="Your email" />
+                    </div>
+                    <div>
+                        <label for="Name">Password</label>
+                        <input type="password" placeholder="Your Password">
+                    </div>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                    <div>
+                        <p>Have you cook before?</p>
+                        <input type="radio" name="yes" id="yes">
+                        <label for="yes">yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="yes" id="yes">
+                        <label for="no">no</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <p>What kind of food do you like?</p>
+                <div class="add-info"></div>
+                <div>
+                    <input type="checkbox" name="kind of food" class="kindFood">
+                    <label for="kind of food">Sweet</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="kind of food" class="kindFood">
+                    <label for="kind of food">Salty</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="kind of food" class="kindFood">
+                    <label for="kind of food">Spicy</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="kind of food" class="kindFood">
+                    <label for="kind of food">Sour</label>
+                </div>
+                <div>
+                    <textarea cols="10" required>Any reason why you choose that kind of food?</textarea>
+                </div>
+                <div>
+                    <p>Upload a food picture that you like!</p>
+                    <input type="file" class="Photo" required accept="image/png, image/jpeg">
+                </div>
+                <button>Submit</button>
+
+            </fieldset>
+        </form>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
